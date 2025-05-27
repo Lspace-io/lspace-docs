@@ -14,8 +14,12 @@ repository/
 ├── README.md           # Main entry point & overview of the knowledge base
 ├── topic1/             # Example content directory
 │   └── concept1.md     # Article synthesized from raw data
-└── topic2/             # Example content directory
-    └── concept2.md     
+├── topic2/             # Example content directory
+│   └── concept2.md     
+└── services/           # Services directory
+    └── orchestrator/   # Orchestrator Service documentation
+        ├── overview.md
+        └── api-endpoints.md
 ```
 
 ## Knowledge Base Architecture
@@ -60,3 +64,4 @@ Located within the root and offer detailed insights on topics:
 
 ## Recent Updates
 - Updated the structure based on insights from `5c08683c-23cb-4174-bc58-98f9b39ff139-knowledge-base-structure.md`.
+- Added Orchestrator Service documentation based on `2f4a943a-8b3c-404c-8da9-29730bc33a0b-orchestrator.md`.
