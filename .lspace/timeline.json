@@ -1,0 +1,18 @@
+{
+  "entries": [
+    {
+      "operation": "add",
+      "path": ".lspace/raw_inputs/5c08683c-23cb-4174-bc58-98f9b39ff139-knowledge-base-structure.md",
+      "title": "knowledge-base-structure.md",
+      "user": "system",
+      "category": "raw_input",
+      "tags": [],
+      "commit": {
+        "id": "b58d6ab92d9eef7efca3f4c3380c51f7f0c38c59",
+        "message": "feat: Add raw input knowledge-base-structure.md"
+      },
+      "id": "63966a5d-b5de-46c1-8f5b-5e01552c9c70",
+      "timestamp": "2025-05-27T16:47:27.537Z"
+    }
+  ]
+}
