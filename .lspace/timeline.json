@@ -27,6 +27,20 @@
       },
       "id": "c04c69a6-fc5d-4806-847c-85602a645d6b",
       "timestamp": "2025-05-27T16:51:01.589Z"
+    },
+    {
+      "operation": "add",
+      "path": ".lspace/raw_inputs/b431ef7b-63da-4166-8dae-949c778ff3b1-mcp-server-setup.md",
+      "title": "mcp-server-setup.md",
+      "user": "system",
+      "category": "raw_input",
+      "tags": [],
+      "commit": {
+        "id": "36c71d52fa8d3215fee26d5ab79c77b533914143",
+        "message": "feat: Add raw input mcp-server-setup.md"
+      },
+      "id": "6dfa49ec-0b67-4aab-a2b5-187cf0848614",
+      "timestamp": "2025-05-27T17:00:58.936Z"
     }
   ]
 }

@@ -12,14 +12,12 @@ repository/
 │   ├── timeline.json    # Operation history for source files
 │   └── raw_inputs/      # Storage for raw documents
 ├── README.md           # Main entry point & overview of the knowledge base
-├── topic1/             # Example content directory
-│   └── concept1.md     # Article synthesized from raw data
-├── topic2/             # Example content directory
-│   └── concept2.md     
-└── services/           # Services directory
-    └── orchestrator/   # Orchestrator Service documentation
-        ├── overview.md
-        └── api-endpoints.md
+├── mcp-server/         # MCP Server Setup and Configuration
+│   └── setup-and-configuration.md # MCP server setup guide
+├── services/           # Services directory
+│   └── orchestrator/   # Orchestrator Service documentation
+│       ├── overview.md
+│       └── api-endpoints.md
 ```
 
 ## Knowledge Base Architecture
@@ -63,5 +61,6 @@ Located within the root and offer detailed insights on topics:
 - `/README.md` offers an intuitive start for user navigation with source tracking and search capabilities.
 
 ## Recent Updates
+- Integrated MCP Server setup details from the document `b431ef7b-63da-4166-8dae-949c778ff3b1-mcp-server-setup.md`.
 - Updated the structure based on insights from `5c08683c-23cb-4174-bc58-98f9b39ff139-knowledge-base-structure.md`.
 - Added Orchestrator Service documentation based on `2f4a943a-8b3c-404c-8da9-29730bc33a0b-orchestrator.md`.
