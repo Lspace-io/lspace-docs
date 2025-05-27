@@ -69,6 +69,20 @@
       },
       "id": "bc79a11b-5b2b-4d0a-94a9-cfdb9b5418b5",
       "timestamp": "2025-05-27T17:22:15.519Z"
+    },
+    {
+      "operation": "add",
+      "path": ".lspace/raw_inputs/f63cae3d-b46e-4b93-8989-115802b215b3-kb-generation-internals.md",
+      "title": "kb-generation-internals.md",
+      "user": "system",
+      "category": "raw_input",
+      "tags": [],
+      "commit": {
+        "id": "218b32632d2a0d569dd6dcfd8898bf59db411a43",
+        "message": "feat: Add raw input kb-generation-internals.md"
+      },
+      "id": "8918f291-1adf-47ed-b2ad-05cae57f9a9d",
+      "timestamp": "2025-05-27T17:32:13.379Z"
     }
   ]
 }

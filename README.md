@@ -20,8 +20,10 @@ repository/
 │   └── orchestrator/   # Orchestrator Service documentation
 │       ├── overview.md
 │       └── api-endpoints.md
-└── api-guide/         # API Usage documentation
+├── api-guide/         # API Usage documentation
 │   └── usage.md
+└── knowledge-base-generation/ # KB Generation Internals
+    └── internals.md
 ```
 
 ## Knowledge Base Architecture
@@ -52,6 +54,10 @@ Located within the root and offer detailed insights on topics:
 - A new section for the Lspace API, which allows users to add, search, browse, and manage the repository content programmatically.
 - Detailed usage and tool descriptions can be found in [API Guide](api-guide/usage.md).
 
+### Knowledge Base Generation Internals
+- Explains the internal processes of the Lspace KB system.
+- For detailed insights, refer to [Knowledge Base Generation Internals](knowledge-base-generation/internals.md).
+
 ## Processes
 
 ### Document Ingestion
@@ -74,3 +80,4 @@ Located within the root and offer detailed insights on topics:
 - Added Orchestrator Service documentation based on `2f4a943a-8b3c-404c-8da9-29730bc33a0b-orchestrator.md`.
 - Added API Usage Guide from the document `a9a3efae-8690-4138-a0dd-d1ac38cc413b-api-usage-guide.md`.
 - Added new introductory section about Lspace benefits and use cases based on `lspace-benefits-use-cases.md`.
+- Processed [Knowledge Base Generation Internals](./knowledge-base-generation/internals.md) detailing internal mechanisms.
