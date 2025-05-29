@@ -22,8 +22,10 @@ repository/
 │       └── api-endpoints.md
 ├── api-guide/         # API Usage documentation
 │   └── usage.md
-└── knowledge-base-generation/ # KB Generation Internals
-    └── internals.md
+├── knowledge-base-generation/ # KB Generation Internals
+│   └── internals.md
+└── licensing/         # Licensing strategy documentation
+    └── licensing-strategy.md
 ```
 
 ## Knowledge Base Architecture
@@ -58,6 +60,9 @@ Located within the root and offer detailed insights on topics:
 - Explains the internal processes of the Lspace KB system.
 - For detailed insights, refer to [Knowledge Base Generation Internals](knowledge-base-generation/internals.md).
 
+### Licensing
+- Comprehensive overview of the LSPACE's licensing model is provided in [Licensing Strategy](licensing/licensing-strategy.md).
+
 ## Processes
 
 ### Document Ingestion
@@ -75,6 +80,7 @@ Located within the root and offer detailed insights on topics:
 - `/README.md` offers an intuitive start for user navigation with source tracking and search capabilities.
 
 ## Recent Updates
+- Integrated the Licensing Strategy details from `ed184976-5677-4d36-b26d-1ee3849aae16-LSPACELicensingStrategy.txt`.
 - Integrated MCP Server setup details from the document `b431ef7b-63da-4166-8dae-949c778ff3b1-mcp-server-setup.md`.
 - Updated the structure based on insights from `5c08683c-23cb-4174-bc58-98f9b39ff139-knowledge-base-structure.md`.
 - Added Orchestrator Service documentation based on `2f4a943a-8b3c-404c-8da9-29730bc33a0b-orchestrator.md`.
