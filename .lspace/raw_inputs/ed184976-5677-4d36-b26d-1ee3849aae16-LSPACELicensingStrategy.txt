@@ -1,0 +1,36 @@
+🛠️ LSPACE Licensing Strategy Summary
+
+🔓 License: Business Source License (BSL)
+	•	Default license for the LSPACE repository
+	•	Allows free use, modification, and self-hosting for:
+	•	Personal projects
+	•	Research
+	•	Internal non-commercial use
+	•	Commercial use is restricted unless:
+	•	You purchase a commercial license
+	•	Or you use the official LSPACE Cloud hosted service
+
+⸻
+
+🧭 Conversion Clause
+	•	After 1 or 2 years, each version of the codebase automatically converts to a fully open-source license (e.g. Apache 2.0 or MIT)
+	•	This provides:
+	•	Long-term transparency and trust
+	•	A clear path for community forks and archival usage
+	•	Ongoing incentive to use the cloud service for the latest version
+
+⸻
+
+💸 Monetization Path
+	•	Offer a hosted, managed version of LSPACE for users and teams who:
+	•	Don’t want to self-host
+	•	Need scalability, uptime guarantees, support, or enhanced features
+	•	Keep premium features (e.g., dashboards, usage analytics, multi-tenant infra) exclusive to the cloud version
+
+⸻
+
+🧠 Why this works
+	•	✅ Protects early-stage IP from commercial exploitation by larger players
+	•	✅ Encourages adoption and contributions without giving away the commercial upside
+	•	✅ Aligns with successful companies like Sentry, MariaDB, and CockroachDB
+	•	✅ Future-proofs openness with automatic open-source relicense after a set term
