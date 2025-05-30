@@ -1,0 +1,156 @@
+# Lspace Server - Getting Started Guide
+
+## Introduction
+
+The **Lspace Server** is now publicly available! This is your gateway to start using Lspace's intelligent knowledge management capabilities. The server provides both an MCP (Model Context Protocol) server and RESTful API endpoints, allowing you to integrate Lspace with various AI tools and applications.
+
+**Repository:** [https://github.com/Lspace-io/lspace-server](https://github.com/Lspace-io/lspace-server)
+
+## What is Lspace Server?
+
+As Terry Pratchett wrote: *"Books bend space and time... You stray into Lspace at your peril."*
+
+The Lspace Server is an open-source API backend that implements the Model Context Protocol (MCP), enabling developers to integrate intelligent knowledge base generation and management capabilities into their workflows. It connects AI agents and other tools to managed content repositories, transforming scattered information into structured, searchable knowledge bases.
+
+## Key Features
+
+- **MCP Implementation**: Full Model Context Protocol support via `lspace-mcp-server.js`
+- **Multi-Repository Management**: Support for both local and GitHub repositories
+- **AI Orchestration**: Automated document classification, organization, and summarization
+- **Knowledge Base Generation**: Creates Wikipedia-like synthesis from raw documents
+- **Dual-Structure Architecture**: Maintains both raw inputs and synthesized knowledge bases
+- **Timeline Tracking**: Complete audit trail of document operations
+- **Self-Hostable**: Run on your own infrastructure with full control
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have:
+- **Node.js** (LTS version recommended) - [Download from nodejs.org](https://nodejs.org)
+- **Git** - [Download from git-scm.com](https://git-scm.com)
+- **OpenAI API Key** - Required for AI processing capabilities
+- **GitHub Personal Access Token** (if using GitHub repositories)
+
+### Quick Setup
+
+1. **Clone and Build**
+   ```bash
+   git clone https://github.com/Lspace-io/lspace-server.git
+   cd lspace-server
+   npm install
+   npm run build
+   ```
+
+2. **Configure Environment**
+   ```bash
+   cp .env.example .env
+   # Edit .env and set your OPENAI_API_KEY
+   ```
+
+3. **Set Up Repositories**
+   ```bash
+   cp config.example.json config.local.json
+   # Edit config.local.json to add your repositories and credentials
+   ```
+
+### MCP Client Integration
+
+The server works seamlessly with MCP-compatible clients:
+
+#### Cursor IDE
+Create `.cursor/mcp.json` in your project or `~/.cursor/mcp.json` globally:
+```json
+{
+  "mcpServers": {
+    "lspace-knowledge-base": {
+      "command": "node",
+      "args": ["/absolute/path/to/your/lspace-server/lspace-mcp-server.js"]
+    }
+  }
+}
+```
+
+#### Claude Desktop
+Edit your Claude Desktop config file:
+- **macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows**: `%APPDATA%\\Claude\\claude_desktop_config.json`
+
+```json
+{
+  "mcpServers": {
+    "lspace": {
+      "command": "node",
+      "args": ["/absolute/path/to/your/lspace-server/lspace-mcp-server.js"]
+    }
+  }
+}
+```
+
+## Repository Architecture
+
+Lspace uses a unique dual-structure approach:
+
+### Raw Document Storage (`/.lspace/raw_inputs/`)
+- Original documents uploaded by users
+- AI-assisted categorization and organization
+- Complete operation history in `/.lspace/timeline.json`
+- Preserved source material for auditing and reprocessing
+
+### Knowledge Base Synthesis (Repository Root)
+- AI-generated, Wikipedia-like structure
+- Central `README.md` providing navigation and overview
+- Topic pages synthesizing information across documents
+- Cross-references linking back to source materials
+
+## GitHub Integration
+
+For GitHub repositories, you'll need a Personal Access Token (PAT):
+
+1. Go to [GitHub Developer Settings](https://github.com/settings/tokens)
+2. Generate a new classic token
+3. Select the `repo` scope for full repository access
+4. Add the token to your `config.local.json` file
+
+## Use Cases
+
+The Lspace Server is perfect for:
+
+- **Development Teams**: API documentation, coding standards, troubleshooting guides
+- **Research Groups**: Literature reviews, experimental data, collaborative notes
+- **Organizations**: Internal knowledge hubs, policies, training materials
+- **Consultants**: Project-specific knowledge across multiple engagements
+- **Anyone**: Who needs to structure and access information efficiently
+
+## API Capabilities
+
+Through the MCP interface, Lspace provides:
+
+- **Content Addition**: Upload text, files, or web URLs
+- **Natural Language Search**: Query across your entire knowledge base
+- **Repository Browsing**: Navigate synthesized documentation
+- **History Tracking**: View and manage changes
+- **Change Management**: Undo operations when needed
+
+## Licensing
+
+The Lspace Server is licensed under the Business Source License 1.1 (BSL 1.1):
+
+- **Free for personal, research, and internal non-commercial use**
+- **Commercial use requires a separate license**
+- **Converts to Apache License 2.0 one year after each version's release**
+
+## Next Steps
+
+1. **Set up the server** using the GitHub repository instructions
+2. **Configure your first repository** in `config.local.json`
+3. **Connect your preferred MCP client** (Cursor or Claude Desktop)
+4. **Start adding content** and experience intelligent knowledge synthesis
+
+For detailed technical documentation and examples, continue exploring this documentation repository. The Lspace Server represents the practical implementation of the concepts and architecture described throughout these docs.
+
+**Ready to get started?** Visit the [Lspace Server repository](https://github.com/Lspace-io/lspace-server) and follow the setup guide!
+
+---
+
+*This document introduces the publicly available Lspace Server and guides users to the implementation repository.*
