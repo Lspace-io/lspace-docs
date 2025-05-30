@@ -111,6 +111,20 @@
       },
       "id": "25a91fbf-4e68-4fa7-9d82-c03119990925",
       "timestamp": "2025-05-30T17:05:02.137Z"
+    },
+    {
+      "operation": "add",
+      "path": ".lspace/raw_inputs/fc4b0887-95c3-4136-aab8-ffe75afe235d-LspaceServer-GettingStartedGuide.txt",
+      "title": "Lspace Server - Getting Started Guide",
+      "user": "system",
+      "category": "raw_input",
+      "tags": [],
+      "commit": {
+        "id": "3d2dfaee4d6c46e2bc2f0e04c65ae5c0894819a1",
+        "message": "feat: Add raw input Lspace Server - Getting Started Guide"
+      },
+      "id": "fc9739ab-5184-43a2-8cef-04e6082c4045",
+      "timestamp": "2025-05-30T17:54:37.459Z"
     }
   ]
 }
