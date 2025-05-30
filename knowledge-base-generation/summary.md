@@ -9,10 +9,12 @@ The Lspace knowledge base is structured around a central hub (the repository roo
 - **Knowledge Base Generation**: Insights into the synthesis and operation of the generated knowledge base.
 - **API Guide**: Documentation on using the Lspace API to interact with the knowledge base remotely.
 - **Licensing**: Information regarding the licensing of Lspace software.
+- **Challenges and Solutions**: Outlines challenges like context-switching in AI workflows and Lspace's strategic solutions, including persistent knowledge management through a universal context layer.
 
 ## Recent Updates
 - Added a newly synthesized guide for getting started with the Lspace Server from "fc4b0887-95c3-4136-aab8-ffe75afe235d-LspaceServer-GettingStartedGuide.txt".
 - Integrated various sections based on recent document additions and updates, enhancing the coherence and usability of the knowledge base.
+- Processed "Lspace Core Problem Statement on Context-Switching Friction" which details challenges faced by AI professionals using multiple tools and Lspace's solutions (Source: "086aed21-cd7d-4de0-a8c2-4089d0e805b0-LspaceCoreProblemStatement-Context-SwitchingFriction.txt").
 
 ---
 This document outlines the architecture and contents of the knowledge base, facilitating navigation and discovery.

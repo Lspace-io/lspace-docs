@@ -6,6 +6,9 @@ This repository contains a structured knowledge base designed to synthesize info
 
 The latest addition to our documentation is the **Lspace Server's Getting Started Guide**, providing detailed instructions on setting up and leveraging the intelligent capabilities of Lspace Server. It enables developers to integrate comprehensive knowledge management and AI orchestration into their workflows with ease.
 
+## Latest Features:
+- **Universal Context Layer**: Transforms context-switching friction into streamlined workflows. Review the full details in [Context-Switching Friction](challenges-and-solutions/context-switching-friction.md).
+
 ## Repository Structure
 
 ```
@@ -47,3 +50,4 @@ repository/
 - Processed [Knowledge Base Generation Internals](./knowledge-base-generation/internals.md) detailing internal mechanisms.
 - **Integrated Understanding of the Model Context Protocol (MCP) from `cadfcf2b-f72f-4218-a167-846123e40cee-UnderstandingtheModelContextProtocolMCP.txt`.**
 - **Added Getting Started Guide for Lspace Server from `fc4b0887-95c3-4136-aab8-ffe75afe235d-LspaceServer-GettingStartedGuide.txt`.**
+- Processed [Lspace Core Problem Statement on Context-Switching Friction](challenges-and-solutions/context-switching-friction.md) providing insights on challenges and solutions for AI workflows.
