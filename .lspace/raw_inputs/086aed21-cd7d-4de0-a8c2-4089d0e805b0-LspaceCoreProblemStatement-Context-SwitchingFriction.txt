@@ -1,0 +1,47 @@
+# Lspace Core Problem Statement
+
+## The Challenge: Context-Switching Friction in AI Workflows
+
+**Lspace eliminates context-switching friction by letting you capture insights from any AI session and instantly make them available across all your tools - turning scattered conversations into persistent, searchable knowledge.**
+
+## The Modern AI User's Dilemma
+
+Today's AI-powered professionals and developers constantly switch between multiple tools:
+- ChatGPT for general queries and brainstorming
+- Claude Desktop for document analysis and writing
+- Claude Code for development tasks
+- Cursor for coding with AI assistance
+- Various other AI tools and platforms
+
+Each tool excels in different areas, but this creates a fundamental problem: **valuable insights and context get trapped in individual sessions**. Users find themselves:
+
+- Constantly copy-pasting information between tools
+- Re-explaining the same context over and over
+- Losing valuable insights when sessions end
+- Struggling to maintain consistent knowledge across platforms
+- Manually managing scattered conversations and discoveries
+
+## Lspace's Solution: Universal Context Layer
+
+Lspace acts as a **universal context layer** for multi-tool AI workflows by:
+
+1. **Capturing Knowledge**: Save insights, decisions, and discoveries from any AI session
+2. **Centralizing Context**: Store all information in a structured, searchable knowledge base
+3. **Cross-Platform Access**: Make your knowledge instantly available across all tools via MCP
+4. **Persistent Memory**: Transform ephemeral conversations into lasting institutional knowledge
+5. **Intelligent Organization**: Automatically structure and cross-reference information
+
+## From Scattered Conversations to Structured Knowledge
+
+Instead of losing valuable insights when you close a chat window, Lspace lets you:
+- Add key findings to your persistent knowledge base with a simple command
+- Search across all your captured insights from any connected tool
+- Build comprehensive documentation that grows with every AI session
+- Share consistent context with team members across different platforms
+- Maintain continuity in long-term projects spanning multiple tools and sessions
+
+This transforms your AI workflow from a series of disconnected conversations into a continuously growing, interconnected knowledge ecosystem that serves you across all platforms and over time.
+
+---
+
+*This problem statement captures the specific pain point Lspace addresses for modern AI users who work across multiple platforms and need persistent, accessible context.*
