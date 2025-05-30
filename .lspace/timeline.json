@@ -97,6 +97,20 @@
       },
       "id": "ebfc3a42-0a0b-4318-9a0f-2d1f8cb5cfc0",
       "timestamp": "2025-05-29T16:59:19.520Z"
+    },
+    {
+      "operation": "add",
+      "path": ".lspace/raw_inputs/cadfcf2b-f72f-4218-a167-846123e40cee-UnderstandingtheModelContextProtocolMCP.txt",
+      "title": "Understanding the Model Context Protocol (MCP)",
+      "user": "system",
+      "category": "raw_input",
+      "tags": [],
+      "commit": {
+        "id": "10b09cc5071557d9ad4184161175ca28461ba0bd",
+        "message": "feat: Add raw input Understanding the Model Context Protocol (MCP)"
+      },
+      "id": "25a91fbf-4e68-4fa7-9d82-c03119990925",
+      "timestamp": "2025-05-30T17:05:02.137Z"
     }
   ]
 }

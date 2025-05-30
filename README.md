@@ -12,6 +12,8 @@ repository/
 │   ├── timeline.json    # Operation history for source files
 │   └── raw_inputs/      # Storage for raw documents
 ├── README.md           # Main entry point & overview of the knowledge base
+├── protocols-and-standards/ # Protocols and Standards Overview
+│   └── understanding-mcp.md # Description of the Model Context Protocol and its integration
 ├── lspace-introduction/ # Lspace introduction and use cases
 │   └── lspace-benefits-use-cases.md # Details on Lspace's benefits and use cases
 ├── mcp-server/         # MCP Server Setup and Configuration
@@ -63,6 +65,9 @@ Located within the root and offer detailed insights on topics:
 ### Licensing
 - Comprehensive overview of the LSPACE's licensing model is provided in [Licensing Strategy](licensing/licensing-strategy.md).
 
+### Protocols and Standards
+- Detailed overview of the Model Context Protocol, see [Understanding MCP](protocols-and-standards/understanding-mcp.md).
+
 ## Processes
 
 ### Document Ingestion
@@ -87,3 +92,4 @@ Located within the root and offer detailed insights on topics:
 - Added API Usage Guide from the document `a9a3efae-8690-4138-a0dd-d1ac38cc413b-api-usage-guide.md`.
 - Added new introductory section about Lspace benefits and use cases based on `lspace-benefits-use-cases.md`.
 - Processed [Knowledge Base Generation Internals](./knowledge-base-generation/internals.md) detailing internal mechanisms.
+- **Integrated Understanding of the Model Context Protocol (MCP) from `cadfcf2b-f72f-4218-a167-846123e40cee-UnderstandingtheModelContextProtocolMCP.txt`.**
